@@ -132,9 +132,11 @@ EIGHTBIT 1
 # Attribute codes:
 #   00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
 # Text color codes:
-#   30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+#   30=black   31=red   32=green   33=yellow   34=blue   35=magenta   36=cyan   37=white
+#   90=brblack 91=brred 92=brgreen 93=bryellow 94=brblue 95=brmagenta 96=brcyan 97=brwhite
 # Background color codes:
-#   40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+#    40=black    41=red    42=green    43=yellow    44=blue    45=magenta    46=cyan    47=white
+#   100=brblack 101=brred 102=brgreen 103=bryellow 104=brblue 105=brmagenta 106=brcyan 107=brwhite
 #
 # NOTES:
 # - See http://www.oreilly.com/catalog/wdnut/excerpt/color_names.html
