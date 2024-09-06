@@ -139,26 +139,26 @@ EIGHTBIT 1
 # NOTES:
 # - See http://www.oreilly.com/catalog/wdnut/excerpt/color_names.html
 # - Color combinations
-#   ANSI Color code       Solarized  Notes                Universal             SolDark              SolLight
-#   ~~~~~~~~~~~~~~~       ~~~~~~~~~  ~~~~~                ~~~~~~~~~             ~~~~~~~              ~~~~~~~~
-#   00    none                                            NORMAL, FILE          <SAME>               <SAME>
-#   30    black           base02
-#   01;30 bright black    base03     bg of SolDark
-#   31    red             red                             docs & mm src         <SAME>               <SAME>
-#   01;31 bright red      orange                          EXEC                  <SAME>               <SAME>
-#   32    green           green                           editable text         <SAME>               <SAME>
-#   01;32 bright green    base01                          unimportant text      <SAME>
-#   33    yellow          yellow     unclear in light bg  multimedia            <SAME>               <SAME>
-#   01;33 bright yellow   base00     fg of SolLight                             unimportant non-text
-#   34    blue            blue       unclear in dark bg   user customized       <SAME>               <SAME>
-#   01;34 bright blue     base0      fg in SolDark                                                   unimportant text
-#   35    magenta         magenta                         LINK                  <SAME>               <SAME>
-#   01;35 bright magenta  violet                          archive/compressed    <SAME>               <SAME>
-#   36    cyan            cyan                            DIR                   <SAME>               <SAME>
-#   01;36 bright cyan     base1                           unimportant non-text                       <SAME>
-#   37    white           base2
-#   01;37 bright white    base3      bg in SolLight
-#   05;37;41                         unclear in Putty dark
+#   ANSI Color code   Solarized  SolDark  SolLight  Notes                Universal             SolDark              SolLight
+#   ~~~~~~~~~~~~~~~   ~~~~~~~~~  ~~~~~~~  ~~~~~~~~  ~~~~~                ~~~~~~~~~             ~~~~~~~              ~~~~~~~~
+#   00     none                                                          NORMAL, FILE          <SAME>               <SAME>
+#   30     black      base02     bg emph
+#   01;30  brblack    base03     bg
+#   31     red        red                                                docs & mm src         <SAME>               <SAME>
+#   01;31  brred      orange                                             EXEC                  <SAME>               <SAME>
+#   32     green      green                                              editable text         <SAME>               <SAME>
+#   01;32  brgreen    base01     fg sec   fg emph                        unimportant text      <SAME>
+#   33     yellow     yellow                        unclear in light bg  multimedia            <SAME>               <SAME>
+#   01;33  bryellow   base00              fg                                                   unimportant non-text
+#   34     blue       blue                          unclear in dark bg   user customized       <SAME>               <SAME>
+#   01;34  brblue     base0      fg                                                                                 unimportant text
+#   35     magenta    magenta                                            LINK                  <SAME>               <SAME>
+#   01;35  brmagenta  violet                                             archive/compressed    <SAME>               <SAME>
+#   36     cyan       cyan                                               DIR                   <SAME>               <SAME>
+#   01;36  brcyan     base1      fg emph  fg sec                         unimportant non-text                       <SAME>
+#   37     white      base2               bg emph
+#   01;37  brwhite    base3               bg
+#   05;37;41                                       unclear in Putty dark
 
 
 ### By file type
