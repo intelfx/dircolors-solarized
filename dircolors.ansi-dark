@@ -194,13 +194,13 @@ ORPHAN  05;37;41
 MISSING 05;37;41
 
 # files with execute permission
-EXEC 01;31  # Unix
-.cmd 01;31  # Win
-.exe 01;31  # Win
-.com 01;31  # Win
-.bat 01;31  # Win
-.reg 01;31  # Win
-.app 01;31  # OSX
+EXEC 01;91  # Unix
+.cmd 01;91  # Win
+.exe 01;91  # Win
+.com 01;91  # Win
+.bat 01;91  # Win
+.reg 01;91  # Win
+.app 01;91  # OSX
 
 #############################################################################
 ### By extension
@@ -389,97 +389,113 @@ EXEC 01;31  # Unix
 .pdf 31
 
 # Archives, compressed
-.7z   1;35
-.apk  1;35
-.arj  1;35
-.bin  1;35
-.bz   1;35
-.bz2  1;35
-.cab  1;35  # Win
-.deb  1;35
-.dmg  1;35  # OSX
-.gem  1;35
-.gz   1;35
-.iso  1;35
-.jar  1;35
-.msi  1;35  # Win
-.rar  1;35
-.rpm  1;35
-.tar  1;35
-.tbz  1;35
-.tbz2 1;35
-.tgz  1;35
-.tx   1;35
-.war  1;35
-.xpi  1;35
-.xz   1;35
-.z    1;35
-.Z    1;35
-.zip  1;35
-.zst  1;35
+.7z   1;95
+.apk  1;95
+.arj  1;95
+.bin  1;95
+.bz   1;95
+.bz2  1;95
+.cab  1;95  # Win
+.deb  1;95
+.dmg  1;95  # OSX
+.gem  1;95
+.gz   1;95
+.iso  1;95
+.jar  1;95
+.msi  1;95  # Win
+.rar  1;95
+.rpm  1;95
+.tar  1;95
+.tbz  1;95
+.tbz2 1;95
+.tgz  1;95
+.tx   1;95
+.war  1;95
+.xpi  1;95
+.xz   1;95
+.z    1;95
+.Z    1;95
+.zip  1;95
+.zst  1;95
 
 # For testing
-.ANSI-30-black 30
-.ANSI-01;30-brblack 01;30
-.ANSI-31-red 31
-.ANSI-01;31-brred 01;31
-.ANSI-32-green 32
-.ANSI-01;32-brgreen 01;32
-.ANSI-33-yellow 33
-.ANSI-01;33-bryellow 01;33
-.ANSI-34-blue 34
-.ANSI-01;34-brblue 01;34
-.ANSI-35-magenta 35
-.ANSI-01;35-brmagenta 01;35
-.ANSI-36-cyan 36
-.ANSI-01;36-brcyan 01;36
-.ANSI-37-white 37
-.ANSI-01;37-brwhite 01;37
+.ANSI-30-black                 30
+.ANSI-90-brblack               90
+.ANSI-31-red                   31
+.ANSI-91-brred                 91
+.ANSI-32-green                 32
+.ANSI-92-brgreen               92
+.ANSI-33-yellow                33
+.ANSI-93-bryellow              93
+.ANSI-34-blue                  34
+.ANSI-94-brblue                94
+.ANSI-35-magenta               35
+.ANSI-95-brmagenta             95
+.ANSI-36-cyan                  36
+.ANSI-96-brcyan                96
+.ANSI-37-white                 37
+.ANSI-97-brwhite               97
+.ANSI-01;30-bold-black      01;30
+.ANSI-01;90-bold-brblack    01;90
+.ANSI-01;31-bold-red        01;31
+.ANSI-01;91-bold-brred      01;91
+.ANSI-01;32-bold-green      01;32
+.ANSI-01;92-bold-brgreen    01;92
+.ANSI-01;33-bold-yellow     01;33
+.ANSI-01;93-bold-bryellow   01;93
+.ANSI-01;34-bold-blue       01;34
+.ANSI-01;94-bold-brblue     01;94
+.ANSI-01;35-bold-magenta    01;35
+.ANSI-01;95-bold-brmagenta  01;95
+.ANSI-01;36-bold-cyan       01;36
+.ANSI-01;96-bold-brcyan     01;96
+.ANSI-01;37-bold-white      01;37
+.ANSI-01;97-bold-brwhite    01;97
 
 #############################################################################
 # Your customizations
 
 # Unimportant text files
-# For universal scheme, use brightgreen 01;32
-# For optimal on light bg (but too prominent on dark bg), use white 01;34
-.log 01;32
-*~ 01;32
-*# 01;32
-#.log 01;34
-#*~ 01;34
-#*# 01;34
+# For universal scheme, use base01 (01;92)
+# For optimal on light bg (but too prominent on dark bg), use base0 (01;94)
+.log 01;92
+*~ 01;92
+*# 01;92
+#.log 01;94
+#*~ 01;94
+#*# 01;94
 
 # Unimportant non-text files
-# For universal scheme, use brightcyan 01;36
-# For optimal on dark bg (but too prominent on light bg), change to 01;33
-#.bak 01;36
-#.BAK 01;36
-#.old 01;36
-#.OLD 01;36
-#.org_archive 01;36
-#.off 01;36
-#.OFF 01;36
-#.dist 01;36
-#.DIST 01;36
-#.orig 01;36
-#.ORIG 01;36
-#.swp 01;36
-#.swo 01;36
-#*.v 01;36
-.bak 01;33
-.BAK 01;33
-.old 01;33
-.OLD 01;33
-.org_archive 01;33
-.off 01;33
-.OFF 01;33
-.dist 01;33
-.DIST 01;33
-.orig 01;33
-.ORIG 01;33
-.swp 01;33
-.swo 01;33
-*.v 01;33
+# For universal scheme, use base1 (01;96)
+# For optimal on dark bg (but too prominent on light bg), use base00 (01;93)
+#.bak 01;96
+#.BAK 01;96
+#.old 01;96
+#.OLD 01;96
+#.org_archive 01;96
+#.off 01;96
+#.OFF 01;96
+#.dist 01;96
+#.DIST 01;96
+#.orig 01;96
+#.ORIG 01;96
+#.swp 01;96
+#.swo 01;96
+#*.v 01;96
+.bak 01;93
+.BAK 01;93
+.old 01;93
+.OLD 01;93
+.org_archive 01;93
+.off 01;93
+.OFF 01;93
+.dist 01;93
+.DIST 01;93
+.orig 01;93
+.ORIG 01;93
+.swp 01;93
+.swo 01;93
+*.v 01;93
 
 # The brightmagenta (Solarized: purple) color is free for you to use for your
 # custom file type
